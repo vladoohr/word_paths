@@ -27,7 +27,6 @@ class PriorityQueue
 
 end
 
-
 class Node
 
  	attr_accessor :state

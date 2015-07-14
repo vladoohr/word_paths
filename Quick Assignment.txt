@@ -1,0 +1,29 @@
+The problem is to find "word paths".  What this means is that you find a path
+from one word to another word, changing one letter each step, and each
+intermediate word must be in the dictionary.
+ 
+We tend to use the dictionary file on a unix/linux/mac in
+/usr/share/dict/words; If you do not have a copy of this file, please let us
+know.
+ 
+Some example solutions:
+
+flux -> flex -> flem -> alem
+rial -> real -> feal -> foal -> foul -> foud
+dung -> dunt -> dent -> gent -> geet -> geez
+doeg -> dong -> song -> sing -> sink -> sick
+jehu -> jesu -> jest -> gest -> gent -> gena -> guna -> guha
+broo -> brod -> brad -> arad -> adad -> adai -> admi -> ammi -> immi
+yagi -> yali -> pali -> palp -> paup -> plup -> blup
+bitt -> butt -> burt -> bert -> berm -> germ -> geum -> meum
+jina -> pina -> pint -> pent -> peat -> prat -> pray
+fike -> fire -> fare -> care -> carp -> camp
+ 
+The program should take as input the path to the word file, a start word, and
+an end word, and print out at least one path from start to end, or something
+indicating there is no possible path if appropriate.
+
+Requirements:
+
+1. Try to use appropiate OO properties where possible (e.g. encapsulation)
+2. Where your program is written in an interpreted language like ruby or python, please say which version you've used.
